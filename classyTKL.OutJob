@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=wafflingTKL.OutJob
+Name=classyTKL.OutJob
 Description=
-TargetOutputMedium=3D-model
+TargetOutputMedium=Schematic
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -40,7 +40,7 @@ OutputMedium6_Type=GeneratedFiles
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=wafflingTKL.PcbDoc
+OutputDocumentPath1=classyTKL.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -55,7 +55,7 @@ Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=wafflingTKL.PcbDoc
+OutputDocumentPath2=classyTKL.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -70,7 +70,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType3=Assembly
 OutputName3=Assembly Drawings
 OutputCategory3=Assembly
-OutputDocumentPath3=wafflingTKL.PcbDoc
+OutputDocumentPath3=classyTKL.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -93,7 +93,7 @@ PcbPrintPreferences3=
 OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
-OutputDocumentPath4=wafflingTKL.PcbDoc
+OutputDocumentPath4=classyTKL.PcbDoc
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -108,7 +108,7 @@ Configuration4_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False
 OutputType5=PCB 3D Print
 OutputName5=PCB 3D Print_top
 OutputCategory5=Documentation
-OutputDocumentPath5=wafflingTKL.PcbDoc
+OutputDocumentPath5=classyTKL.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
@@ -124,7 +124,7 @@ Configuration5_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=146643447|Vie
 OutputType6=BOM_PartType
 OutputName6=Bill of Materials XLS
 OutputCategory6=Report
-OutputDocumentPath6=wafflingTKL.PcbDoc
+OutputDocumentPath6=classyTKL.PcbDoc
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -150,7 +150,7 @@ Configuration6_Item6=Description=100|Quantity=100|Designator=100|LCSCPN=100|MFG=
 OutputType7=BOM_PartType
 OutputName7=Bill of Materials CSV
 OutputCategory7=Report
-OutputDocumentPath7=wafflingTKL.PcbDoc
+OutputDocumentPath7=classyTKL.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -178,7 +178,7 @@ OutputName8=Schematic Prints
 OutputCategory8=Documentation
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -192,9 +192,9 @@ Configuration8_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType9=ExportSTEP
 OutputName9=Export STEP
 OutputCategory9=Export
-OutputDocumentPath9=wafflingTKL.PcbDoc
+OutputDocumentPath9=classyTKL.PcbDoc
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
@@ -207,7 +207,7 @@ Configuration9_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType10=PCB 3D Print
 OutputName10=PCB 3D Print_bot
 OutputCategory10=Documentation
-OutputDocumentPath10=wafflingTKL.PcbDoc
+OutputDocumentPath10=classyTKL.PcbDoc
 OutputVariantName10=
 OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
@@ -318,7 +318,7 @@ PDFACompliance5=Disabled
 PDFVersion5=Default
 OutputFilePath6=C:\Users\Stefan\Documents\git\wafflingTKL\wafflingTKL\Project Outputs for alps-cherry\2020-04-15\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for alps-cherry
+OutputBasePath6=Project Outputs for Free Documents
 OutputPathMedia6==CurrentDate
 OutputPathMediaValue6==CurrentDate
 OutputPathOutputer6=
