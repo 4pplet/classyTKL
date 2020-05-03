@@ -33,4 +33,3 @@ PCB for the classyTKL
 
 ## Revisions MX:
 - Rev A1: Initial prototype
-
