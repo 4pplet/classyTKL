@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=classyTKL.OutJob
+Name=classyTKL_MX.OutJob
 Description=
 TargetOutputMedium=Gerbers drill and pick
 VariantName=[No Variations]
@@ -42,7 +42,7 @@ OutputMedium7_Type=GeneratedFiles
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=classyTKL.PcbDoc
+OutputDocumentPath1=classyTKL_MX.PcbDoc
 OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
@@ -58,7 +58,7 @@ Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=classyTKL.PcbDoc
+OutputDocumentPath2=classyTKL_MX.PcbDoc
 OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
@@ -74,7 +74,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType3=Assembly
 OutputName3=Assembly Drawings
 OutputCategory3=Assembly
-OutputDocumentPath3=classyTKL.PcbDoc
+OutputDocumentPath3=classyTKL_MX.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -98,7 +98,7 @@ PcbPrintPreferences3=
 OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
-OutputDocumentPath4=classyTKL.PcbDoc
+OutputDocumentPath4=classyTKL_MX.PcbDoc
 OutputVariantName4=
 OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
@@ -114,7 +114,7 @@ Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType5=PCB 3D Print
 OutputName5=PCB 3D Print_top
 OutputCategory5=Documentation
-OutputDocumentPath5=classyTKL.PcbDoc
+OutputDocumentPath5=classyTKL_MX.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
@@ -131,7 +131,7 @@ Configuration5_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=141210747|Vie
 OutputType6=BOM_PartType
 OutputName6=Bill of Materials XLS
 OutputCategory6=Report
-OutputDocumentPath6=classyTKL.PcbDoc
+OutputDocumentPath6=classyTKL_MX.PcbDoc
 OutputVariantName6=
 OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
@@ -158,7 +158,7 @@ Configuration6_Item6=Description=100|Quantity=100|Designator=100|MFG=100|MFGPN=1
 OutputType7=BOM_PartType
 OutputName7=Bill of Materials CSV
 OutputCategory7=Report
-OutputDocumentPath7=classyTKL.PcbDoc
+OutputDocumentPath7=classyTKL_MX.PcbDoc
 OutputVariantName7=
 OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
@@ -202,7 +202,7 @@ Configuration8_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType9=PCB 3D Print
 OutputName9=PCB 3D Print_bot
 OutputCategory9=Documentation
-OutputDocumentPath9=classyTKL.PcbDoc
+OutputDocumentPath9=classyTKL_MX.PcbDoc
 OutputVariantName9=
 OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
@@ -219,7 +219,7 @@ Configuration9_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=141210748|Vie
 OutputType10=ExportSTEP
 OutputName10=Export STEP
 OutputCategory10=Export
-OutputDocumentPath10=classyTKL.PcbDoc
+OutputDocumentPath10=classyTKL_MX.PcbDoc
 OutputVariantName10=
 OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
@@ -236,7 +236,7 @@ Configuration10_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModel
 [PublishSettings]
 OutputFilePath2=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-11-30\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for alps-cherry
 OutputPathMedia2==CurrentDate
 OutputPathMediaValue2==CurrentDate
 OutputPathOutputer2=[Output Type]
@@ -261,7 +261,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Stefan\Documents\git\classyTKL\Project Outputs for alps-cherry\2020-04-15\
+OutputFilePath3=C:\Users\Stefan\Documents\git\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-05-03\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for alps-cherry
 OutputPathMedia3==CurrentDate
@@ -276,7 +276,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-12-21\Job1.PDF
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Free Documents
+OutputBasePath4=Project Outputs for alps-cherry
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -303,7 +303,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 OutputFilePath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\2020-04-02\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for Free Documents
+OutputBasePath5=Project Outputs for alps-cherry
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
@@ -316,7 +316,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 OutputFilePath6=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for Free Documents
+OutputBasePath6=Project Outputs for alps-cherry
 OutputPathMedia6==CurrentDate
 OutputPathMediaValue6==CurrentDate
 OutputPathOutputer6=[Output Type]
@@ -358,7 +358,7 @@ OpenOutput7=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-11-30\Job1.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Stefan\Documents\git\classyTKL\Project Outputs for alps-cherry\2020-04-15\
+RelativeOutputPath3=C:\Users\Stefan\Documents\git\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-05-03\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
