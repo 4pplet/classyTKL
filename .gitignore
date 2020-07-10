@@ -5,3 +5,5 @@ History/
 Project Logs for classyTKL/
 *.LOG
 ClassyTKL-ALPS/classyTKL_MX.pdf
+*.DS_Store
+readme-images/.DS_Store
