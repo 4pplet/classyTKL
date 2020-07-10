@@ -10,9 +10,9 @@ PCB for the classyTKL
 # classyTKL MX
 
 ## Altium view of MX PCB
-![alt text](./readme-images/classyTKL_MX_Rev_A2_top.png "PCB View - Rev A")
+![alt text](./readme-images/classyTKL_MX_Rev_A2_top.jpg "PCB View - Rev A")
 
-![alt text](./readme-images/classyTKL_MX_Rev_A2_bot.png "PCB View - Rev A")
+![alt text](./readme-images/classyTKL_MX_Rev_A2_bot.jpg "PCB View - Rev A")
 
 ## Layout support MX: 
 ![alt text](./readme-images/layout_support_MX.jpg "Layout support")
@@ -24,9 +24,9 @@ PCB for the classyTKL
 # classyTKL ALPS
 
 ## Altium view of Alps PCB
-![alt text](./readme-images/classyTKL_ALPS_Rev_A2_top.png "PCB View - Rev A")
+![alt text](./readme-images/classyTKL_ALPS_Rev_A2_top.jpg "PCB View - Rev A")
 
-![alt text](./readme-images/classyTKL_ALPS_Rev_A2_bot.png "PCB View - Rev A")
+![alt text](./readme-images/classyTKL_ALPS_Rev_A2_bot.jpg "PCB View - Rev A")
 
 ## Layout support Alps: 
 ![alt text](./readme-images/layout_support_ALPS.jpg "Layout support")
