@@ -6,6 +6,8 @@ PCB for the classyTKL
 - QMK
 - Cherry PCB-stab support
 - JST-connector for daughter board
+- Polyfuse for overcurrent protection
+- ESD-protection
 
 # classyTKL MX
 
@@ -15,7 +17,7 @@ PCB for the classyTKL
 ![alt text](./readme-images/classyTKL_MX_Rev_A2_bot.jpg "PCB View - Rev A")
 
 ## Layout support MX: 
-![alt text](./readme-images/layout_support_MX.jpg "Layout support")
+![alt text](./readme-images/layout_support_MX_Rev_A2.jpg "Layout support")
 
 ## Revisions MX:
 - Rev A1: Initial prototype
@@ -29,7 +31,7 @@ PCB for the classyTKL
 ![alt text](./readme-images/classyTKL_ALPS_Rev_A2_bot.jpg "PCB View - Rev A")
 
 ## Layout support Alps: 
-![alt text](./readme-images/layout_support_ALPS.jpg "Layout support")
+![alt text](./readme-images/layout_support_ALPS_Rev_A2.jpg "Layout support")
 
 ## Revisions MX:
 - Rev A1: Initial prototype
