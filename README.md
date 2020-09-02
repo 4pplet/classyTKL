@@ -9,8 +9,6 @@ PCB for the classyTKL
 - Polyfuse for overcurrent protection
 - ESD-protection
 
-# classyTKL MX
-
 ## Altium view of PCB
 ![alt text](./readme-images/classyTKL_MX_Rev_A2_top.jpg "PCB View - Rev A")
 
@@ -19,6 +17,6 @@ PCB for the classyTKL
 ## Layout support: 
 ![alt text](./readme-images/layout_support_MX_Rev_A2.jpg "Layout support")
 
-## Revisions MX:
+## Revisions:
 - Rev A1: Initial prototype
 - Rev A2: Added missing ISO footprint, added posibility of THT switch under space
