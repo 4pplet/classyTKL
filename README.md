@@ -12,12 +12,10 @@ PCB for the classyTKL
 - ISO & ANSI-support
 
 ## Altium view of MX PCB
-![alt text](./readme-images/classyTKL_MX_Rev_A2_top.jpg "PCB View - Rev A")
-
-![alt text](./readme-images/classyTKL_MX_Rev_A2_bot.jpg "PCB View - Rev A")
+![alt text](./readme-images/classyTKL_MX_Rev_A3.jpg "PCB View - Rev A")
 
 ## Layout support: 
-![alt text](./readme-images/layout_support_MX_Rev_A2.jpg "Layout support")
+![alt text](./readme-images/layout_support_MX_Rev_A3.jpg "Layout support")
 
 ## Revisions MX:
 - Rev A1: Initial prototype
