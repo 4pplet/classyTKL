@@ -265,7 +265,7 @@ Configuration11_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|
 OutputType12=Gerber
 OutputName12=Plate Gerber Files
 OutputCategory12=Fabrication
-OutputDocumentPath12=classyTKL_MX.PcbDoc
+OutputDocumentPath12=classyTKL_MX_plate.PcbDoc
 OutputVariantName12=
 OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
@@ -282,7 +282,7 @@ Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 OutputType13=NC Drill
 OutputName13=Plate NC Drill Files
 OutputCategory13=Fabrication
-OutputDocumentPath13=classyTKL_MX.PcbDoc
+OutputDocumentPath13=classyTKL_MX_plate.PcbDoc
 OutputVariantName13=
 OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
