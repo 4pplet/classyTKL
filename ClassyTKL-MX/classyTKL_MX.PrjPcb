@@ -106,6 +106,23 @@ GenerateClassCluster=0
 DocumentUniqueId=UQQMBOXI
 
 [Document5]
+DocumentPath=classyTKL_MX_plate.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UQQMBOXI
+
+[Document6]
 DocumentPath=1_classyTKL_MX_top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MBXHBRXV
 
-[Document6]
+[Document7]
 DocumentPath=2_classyTKL_MX_matrix.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RLWNVGLD
 
-[Document7]
+[Document8]
 DocumentPath=classyTKL_MX.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
