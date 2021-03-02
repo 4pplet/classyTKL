@@ -27,5 +27,6 @@ PCB for the classyTKL
 
 ## Revisions SMK:
 - Rev A1: Initial prototype
+- Rev A2: Updated footprints that was still left over from MX-version
 
 NOTE: ALPS and SMK ISO enter ONLY support center-stem (like MX).
