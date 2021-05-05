@@ -136,7 +136,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=141210736|ViewY=62929220|LookAtX=386227648|LookAtY=146388304|LookAtZ=-50000|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.26666290856223E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=1858|ScreenHeight=828|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32147483647\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\34036123\2CFG3D.BOTSOLDERMASKCOLOR\34036123\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\316777215\2CFG3D.WORKSPACEENDCOLOR\314671839\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.700000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.700000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
 OutputType6=BOM_PartType
-OutputName6=Bill of Materials XLS
+OutputName6=Bill of Materials CSV
 OutputCategory6=Report
 OutputDocumentPath6=classyTKL_MX.PcbDoc
 OutputVariantName6=
@@ -153,65 +153,55 @@ OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration6_Name1=ColumnNameFormat
 Configuration6_Item1=CaptionAsName
-Configuration6_Name2=Filter
-Configuration6_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration6_Name3=General
-Configuration6_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration6_Name4=GroupOrder
-Configuration6_Item4=Value=True|LCSC Part #=True|Footprint=True
-Configuration6_Name5=SortOrder
-Configuration6_Item5=Quantity=Down
-Configuration6_Name6=VisibleOrder
-Configuration6_Item6=Description=100|Quantity=100|Designator=100|MFG=100|MFGPN=100|Value=100|Version=100|LCSC MFG=100|MRF.Part=100|LCSC Part #=100
-OutputType7=BOM_PartType
-OutputName7=Bill of Materials CSV
-OutputCategory7=Report
-OutputDocumentPath7=classyTKL_MX.PcbDoc
+Configuration6_Name2=General
+Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=1907|FormHeight=984|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration6_Name3=GroupOrder
+Configuration6_Item3=Value=True|Footprint=True|LCSC Part #=True
+Configuration6_Name4=SortOrder
+Configuration6_Item4=Designator=Up
+Configuration6_Name5=VisibleOrder
+Configuration6_Item5=Designator=79|Quantity=79|LCSC Part #=109|Footprint=129|MRF.Part=25|LCSC MFG=100
+Configuration6_Name6=VisibleOrder_Flat
+Configuration6_Item6=Designator=79|Quantity=79|LCSC Part #=109|Footprint=129|MRF.Part=25|LCSC MFG=100
+OutputType7=Schematic Print
+OutputName7=Schematic Prints
+OutputCategory7=Documentation
+OutputDocumentPath7=
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
-OutputEnabled7_OutputMedium3=5
+OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
-OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium5=1
 OutputEnabled7_OutputMedium6=0
 OutputEnabled7_OutputMedium7=0
 OutputEnabled7_OutputMedium8=0
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration7_Name1=ColumnNameFormat
-Configuration7_Item1=CaptionAsName
-Configuration7_Name2=Filter
-Configuration7_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration7_Name3=General
-Configuration7_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration7_Name4=GroupOrder
-Configuration7_Item4=Value=True|Footprint=True|LCSC Part #=True
-Configuration7_Name5=SortOrder
-Configuration7_Item5=Quantity=Down
-Configuration7_Name6=VisibleOrder
-Configuration7_Item6=Designator=79|Quantity=79|LCSC Part #=109|Footprint=129|MFG=133|MFGPN=25|MRF.Part=25
-OutputType8=Schematic Print
-OutputName8=Schematic Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType8=PCB 3D Print
+OutputName8=PCB 3D Print_bot
 OutputCategory8=Documentation
-OutputDocumentPath8=
+OutputDocumentPath8=classyTKL_MX.PcbDoc
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
-OutputEnabled8_OutputMedium5=1
+OutputEnabled8_OutputMedium5=0
 OutputEnabled8_OutputMedium6=0
 OutputEnabled8_OutputMedium7=0
 OutputEnabled8_OutputMedium8=0
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.86|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType9=PCB 3D Print
-OutputName9=PCB 3D Print_bot
-OutputCategory9=Documentation
+Configuration8_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=146768304|ViewY=65405896|LookAtX=386228992|LookAtY=148368560|LookAtZ=627552|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=1|QuatZ=0|QuatW=0|Zoom=1.26594095210808E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=1858|ScreenHeight=828|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
+OutputType9=ExportSTEP
+OutputName9=Export STEP
+OutputCategory9=Export
 OutputDocumentPath9=classyTKL_MX.PcbDoc
 OutputVariantName9=
 OutputEnabled9=0
@@ -220,16 +210,15 @@ OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
 OutputEnabled9_OutputMedium5=0
-OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium6=1
 OutputEnabled9_OutputMedium7=0
 OutputEnabled9_OutputMedium8=0
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.86|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration9_Name1=OutputConfigurationParameter1
-Configuration9_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=146768304|ViewY=65405896|LookAtX=386228992|LookAtY=148368560|LookAtZ=627552|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=1|QuatZ=0|QuatW=0|Zoom=1.26594095210808E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=1858|ScreenHeight=828|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000
-OutputType10=ExportSTEP
-OutputName10=Export STEP
-OutputCategory10=Export
+Configuration9_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False
+OutputType10=PDF3D
+OutputName10=PDF3D
+OutputCategory10=Documentation
 OutputDocumentPath10=classyTKL_MX.PcbDoc
 OutputVariantName10=
 OutputEnabled10=0
@@ -238,32 +227,32 @@ OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
 OutputEnabled10_OutputMedium4=0
 OutputEnabled10_OutputMedium5=0
-OutputEnabled10_OutputMedium6=1
-OutputEnabled10_OutputMedium7=0
+OutputEnabled10_OutputMedium6=0
+OutputEnabled10_OutputMedium7=1
 OutputEnabled10_OutputMedium8=0
 OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False
-OutputType11=PDF3D
-OutputName11=PDF3D
-OutputCategory11=Documentation
-OutputDocumentPath11=classyTKL_MX.PcbDoc
+Configuration10_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=2|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=1|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
+OutputType11=Gerber
+OutputName11=Plate Gerber Files
+OutputCategory11=Fabrication
+OutputDocumentPath11=classyTKL_MX_plate.PcbDoc
 OutputVariantName11=
-OutputEnabled11=0
+OutputEnabled11=1
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
 OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
-OutputEnabled11_OutputMedium7=1
-OutputEnabled11_OutputMedium8=0
+OutputEnabled11_OutputMedium7=0
+OutputEnabled11_OutputMedium8=1
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=2|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=1|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
-OutputType12=Gerber
-OutputName12=Plate Gerber Files
+Configuration11_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType12=NC Drill
+OutputName12=Plate NC Drill Files
 OutputCategory12=Fabrication
 OutputDocumentPath12=classyTKL_MX_plate.PcbDoc
 OutputVariantName12=
@@ -275,13 +264,13 @@ OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=0
 OutputEnabled12_OutputMedium7=0
-OutputEnabled12_OutputMedium8=1
+OutputEnabled12_OutputMedium8=2
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
-OutputType13=NC Drill
-OutputName13=Plate NC Drill Files
-OutputCategory13=Fabrication
+Configuration12_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+OutputType13=ExportSTEP
+OutputName13=Plate Export STEP
+OutputCategory13=Export
 OutputDocumentPath13=classyTKL_MX_plate.PcbDoc
 OutputVariantName13=
 OutputEnabled13=1
@@ -292,32 +281,15 @@ OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
 OutputEnabled13_OutputMedium6=0
 OutputEnabled13_OutputMedium7=0
-OutputEnabled13_OutputMedium8=2
+OutputEnabled13_OutputMedium8=3
 OutputDefault13=0
 Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
-OutputType14=ExportSTEP
-OutputName14=Plate Export STEP
-OutputCategory14=Export
-OutputDocumentPath14=classyTKL_MX_plate.PcbDoc
-OutputVariantName14=
-OutputEnabled14=1
-OutputEnabled14_OutputMedium1=0
-OutputEnabled14_OutputMedium2=0
-OutputEnabled14_OutputMedium3=0
-OutputEnabled14_OutputMedium4=0
-OutputEnabled14_OutputMedium5=0
-OutputEnabled14_OutputMedium6=0
-OutputEnabled14_OutputMedium7=0
-OutputEnabled14_OutputMedium8=3
-OutputDefault14=0
-Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
+Configuration13_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-11-30\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for alps-cherry
 OutputPathMedia2==CurrentDate
 OutputPathMediaValue2==CurrentDate
 OutputPathOutputer2=[Output Type]
@@ -342,9 +314,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-09-03\
+OutputFilePath3=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-05-05\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=Project Outputs for alps-cherry
 OutputPathMedia3==CurrentDate
 OutputPathMediaValue3==CurrentDate
 OutputPathOutputer3=[Output Type]
@@ -357,7 +329,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-12-21\Job1.PDF
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Free Documents
+OutputBasePath4=Project Outputs for alps-cherry
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -384,7 +356,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 OutputFilePath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for Free Documents
+OutputBasePath5=Project Outputs for alps-cherry
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
@@ -409,9 +381,9 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-09-03\
+OutputFilePath6=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-05-05\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for Free Documents
+OutputBasePath6=Project Outputs for alps-cherry
 OutputPathMedia6==CurrentDate
 OutputPathMediaValue6==CurrentDate
 OutputPathOutputer6=[Output Type]
@@ -424,7 +396,7 @@ OutputFileNameSpecial6=
 OpenOutput6=0
 OutputFilePath7=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-09-26\classyTKL_MX.PDF
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for Free Documents
+OutputBasePath7=Project Outputs for alps-cherry
 OutputPathMedia7==CurrentDate
 OutputPathMediaValue7==CurrentDate
 OutputPathOutputer7=[Output Type]
@@ -449,7 +421,7 @@ ShowComponentParameters7=1
 GlobalBookmarks7=0
 PDFACompliance7=Disabled
 PDFVersion7=Default
-OutputFilePath8=C:\Users\Stefan Sundin\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-03-02\
+OutputFilePath8=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-05-05\
 ReleaseManaged8=1
 OutputBasePath8=Project Outputs for alps-cherry
 OutputPathMedia8==CurrentDate
@@ -466,7 +438,7 @@ OpenOutput8=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-11-30\Job1.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-09-03\
+RelativeOutputPath3=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-05-05\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -480,7 +452,7 @@ RelativeOutputPath4=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs 
 OpenOutputs4=0
 RelativeOutputPath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
 OpenOutputs5=0
-RelativeOutputPath6=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-09-03\
+RelativeOutputPath6=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-05-05\
 OpenOutputs6=0
 AddToProject6=0
 TimestampFolder6=0
@@ -492,7 +464,7 @@ OpenIPCOutput6=0
 EnableReload6=0
 RelativeOutputPath7=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2020-09-26\classyTKL_MX.PDF
 OpenOutputs7=0
-RelativeOutputPath8=C:\Users\Stefan Sundin\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-03-02\
+RelativeOutputPath8=C:\Users\Stefan\Documents\GitHub\classyTKL\ClassyTKL-MX\Project Outputs for alps-cherry\2021-05-05\
 OpenOutputs8=0
 AddToProject8=0
 TimestampFolder8=0
