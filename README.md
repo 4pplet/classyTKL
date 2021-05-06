@@ -10,6 +10,7 @@ PCB for the classyTKL
 - ESD-protection
 - Reset-switch under spacebar
 - ISO & ANSI-support
+- (rev A3) Reverse polarity protection
 
 ## Altium view of MX PCB
 ![alt text](./readme-images/classyTKL_MX_Rev_A3.jpg "PCB View - Rev A")
