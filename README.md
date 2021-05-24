@@ -1,6 +1,6 @@
 # classyTKL
 
-PCB for the classyTKL
+PCB for the classyTKL. Check releases for production files.
 
 ## Some features:
 - QMK & VIA
