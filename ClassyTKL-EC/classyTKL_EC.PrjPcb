@@ -75,6 +75,23 @@ GenerateClassCluster=0
 DocumentUniqueId=RLWNVGLD
 
 [Document3]
+DocumentPath=4_classyTKL_EC_analog.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GIJIWGCZ
+
+[Document4]
 DocumentPath=3_classyTKL_EC_mcu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,9 +106,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UMAPLPXN
+DocumentUniqueId=MUJDMLUZ
 
-[Document4]
+[Document5]
 DocumentPath=classyTKL_EC.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=1_classyTKL_EC_top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MBXHBRXV
 
-[Document6]
+[Document7]
 DocumentPath=..\..\Altium-Keeb-lib\Keebs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJRQXWGT
 
-[Document7]
+[Document8]
 DocumentPath=..\..\Altium-Keeb-lib\Keebs.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -160,20 +177,20 @@ GenerateClassCluster=0
 DocumentUniqueId=QYTUGAVK
 
 [Parameter1]
-Name=Revision
-Value=B1
+Name=GitHub
+Value=github.com/4pplet/classytkl
 
 [Parameter2]
-Name=ProjectTitle
-Value=ClassyTKL - EC
-
-[Parameter3]
 Name=License
 Value=License: CERN-OHL-S
 
+[Parameter3]
+Name=ProjectTitle
+Value=ClassyTKL - EC
+
 [Parameter4]
-Name=GitHub
-Value=github.com/4pplet/classytkl
+Name=Revision
+Value=B1
 
 [Configuration1]
 Name=Sources
